@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".MainActivity">
-
+    android:background="@drawable/safira_background"
+    tools:context=".MainActivity"
+    >
 
     <Button
+        android:id="@+id/chatFab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/chatFab"
-        android:text="Chat"
-        />
+        android:layout_marginBottom="-400dp"
+        android:backgroundTint="#d5bc81"
+        android:fontFamily="sans-serif-medium"
+        android:text="falar com safira"
+        android:textAlignment="center"
+        android:textColor="#051433" />
+
 
 </RelativeLayout>

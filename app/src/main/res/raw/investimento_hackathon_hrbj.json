@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "investimento-hackathon-hrbj",
+  "private_key_id": "31905b14b7a6abf985bce300e0f7cd352880ff0c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOv35RYbJCpoCw\nx7VTwZ2SKrFPPwJu2yVYSyV2ueEEIyUgsqOCbkI4LoKnn472RTInjyygtvNMgDH2\nd911qNtrA1RR5Qy2HrbT47ySTczjyGpOKWSZl8fads/T8ClDSr9sOpIoCddn9QXN\nBl6gwqdrGTrATRjNWboNM6qQt7jhnb1PY5ftliwgIbaMX1UWZvaAkj3EfW+Dh2I1\nWrJKUBiLu53og/XaIhMe2Zbb11B1AHX38QhGje3oGFYH+1g4odvhphTackV79xA7\nqC0dicXzJTSZ58CWcxHI88ovI3meM7UIeKZKP1EahD57Q471+Xic+ov4yoMGy3CR\nBbXEvTN7AgMBAAECggEAHXErYcHUuxAaBdK9fErMuoAmQD+cBEG6Ajuv/0XTiPLL\npT87RhDskN1IEZXegSyedVVlc2efoyvNsah6haMWcsQGcc55WRrA9NDFeFzoSiHZ\ncv21tqJk6AlWaaXq7QshJ8j5f7EobJn53wDCtghdA2/pgXFukEPFrn6b52r6bZ/L\n8iZt2lvo+XGJGNiMONbnbpquQHAWSWfkZItvoUQjkCYXi55tpzPpYnCbJqh2fjyJ\nFwqGz+w6nIw07ZZo0olxEIzndTlUyP9/xzMzWCXX2+DB0o4yxMlh89uaFlifiG+F\nASXwAtH1gq8odkNMz49xkKEMdVz9ao1KkbUJyZ6wQQKBgQD/FS5HASGshJkfYVtC\ndMl4nz4g/ydMOwNod2LBax030mhP4Z/ubgCi+QEE8GmEUojelZE4cgEXBMlYP2z+\nI5gCb3ljGiF525QFP5gsCF0BYyGWMFKoJ7DDYmoi0hEOBth6vAL+Y/f7Dx7wUoFs\nVbwAuUAL/NJo1SGJlxSimfpSwQKBgQDPfdFOXDT9IHpAq6+usWur23bvJ/AsmJCw\nuZt11ohZliWOKDpk56ojSv23iF8PCklq6dtwQG5uqO7rFO9VUL3qapBIkAo6EIWx\ndObNl29bz3A3zUIOSdyILg2d2xyeUSEjGhqs2SB0QA1deyanur6ISUH4TdE2axnf\neD2JR/FhOwKBgDMVxdfYhSrsv1HGiKVNiE/M7H9lOjSNGQih6Dg+QHK+g7+Duyjg\nBOaeobKghzFF6j1RjOzWABvhDIXM5gIblMTgGFpdkFi8Pe+zJcGjxySQ+tf+Q3+D\nu2XV3tWsZlf9zPr/jkXuNWqlQ5fznhHZNbabYxVDg8wU6wuII0zRM43BAoGBAK7E\neiT3k4ZV8cNBGUQamudxfncoe6sEgnLok2Io5kYXKuDXT4AohW0ewB/z1KWVc4uD\nGNsu2hWJY1xNEN4amSy2v3rvID4SJpn3LmSjFiAN1Kab0/S3D/MAX2XD5hIPocqw\nNSG77RMd1GQV09RZfhzLH67m1L5ybaOF4scb+tt7AoGBANyJ4Z5aZzEib8F6pncO\n/CfmQZvQ4f/YTSGyMdgQq9XkjBBziqkxTJTGpFDqsUO9pq4sIsaNMU7X6MxmuH7B\na+z4RRcki0ZUpgPhcArkJAWKCzkeNpSF1/uk/XtDQhz7/frCYROQrhRoTifXpUmb\nP2p4xL+ulMd7ZcuNa8zifvCX\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-uhdtiv@investimento-hackathon-hrbj.iam.gserviceaccount.com",
+  "client_id": "108865499430972508629",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-uhdtiv%40investimento-hackathon-hrbj.iam.gserviceaccount.com"
+}
