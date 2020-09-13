@@ -35,19 +35,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openChatbot(View view) {
-        // provide your Dialogflow's Google Credential JSON saved under RAW folder in resources
+        // fornecer o JSON da credencial do Google do Dialogflow salvo na pasta RAW
         DialogflowCredentials.getInstance().setInputStream(getResources().openRawResource(R.raw.investimento_hackathon_hrbj));
 
         ChatbotSettings.getInstance().setChatbot( new Chatbot.ChatbotBuilder()
-//                .setDoAutoWelcome(false) // True by Default, False if you do not want the Bot to greet the user Automatically. Dialogflow agent must have a welcome intent to handle this
-                .setChatBotAvatar(getDrawable(R.drawable.safira_avatar)) // provide avatar for your bot if default is not required
-                .setChatUserAvatar(getDrawable(R.drawable.user_avatar)) // provide avatar for your the user if default is not required
-                .setShowMic(true) // False by Default, True if you want to use Voice input from the user to chat
+                .setDoAutoWelcome(false) // Verdadeiro por padrão, falso se você não quiser que o Bot cumprimente o usuário automaticamente. O agente Dialogflow deve ter uma intenção de welcome para lidar com isso
+                .setChatBotAvatar(getDrawable(R.drawable.safira_avatar)) // avatar do bot
+                .setChatUserAvatar(getDrawable(R.drawable.user_avatar)) // avatar usuário
+                .setShowMic(true) // habilitar inserção de voz
                 .build());
         Intent intent = new Intent(MainActivity.this, ChatbotActivity.class);
         Bundle bundle = new Bundle();
 
-        // provide a UUID for your session with the Dialogflow agent
+        //fornecer um UUID para sua sessão com o agente Dialogflow
         bundle.putString(ChatbotActivity.SESSION_ID, UUID.randomUUID().toString());
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY);
         intent.putExtras(bundle);
