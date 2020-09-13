@@ -1,2 +1,3 @@
 # Hackaton-Safra-Android-App
- Android App desenvolvido para o Hackaton Safra
+Aplicativo desenvolvido no Android Studio que implementa a API do DialogFlow.
+Possui uma tela inicial e uma tela para o chat.
