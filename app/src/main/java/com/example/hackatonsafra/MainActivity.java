@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openChatbot(View view) {
         // fornecer o JSON da credencial do Google do Dialogflow salvo na pasta RAW
-        DialogflowCredentials.getInstance().setInputStream(getResources().openRawResource(R.raw.investimento_hackathon_hrbj));
+        DialogflowCredentials.getInstance().setInputStream(getResources().openRawResource(R.raw.i));
 
         ChatbotSettings.getInstance().setChatbot( new Chatbot.ChatbotBuilder()
                 .setDoAutoWelcome(false) // Verdadeiro por padrão, falso se você não quiser que o Bot cumprimente o usuário automaticamente. O agente Dialogflow deve ter uma intenção de welcome para lidar com isso
